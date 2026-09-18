@@ -1,0 +1,21 @@
+{
+  "name": "nexora-bot-v2",
+  "version": "2.0.0",
+  "description": "Nexora Discord bot, order workflow, website API and community systems.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
